@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T13:39:42.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.0.8" etag="EvXd2R7kFUULPCFfnb30" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T13:46:00.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="bEphTj4Yoxkb4IDCHLIk" version="22.0.8" type="github">
   <diagram name="Page-1" id="Bof4_lvkWmIuTJa6RpOz">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0qrOs5zlSHAR0b6muMkG-1" target="0qrOs5zlSHAR0b6muMkG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-1" value="Browser:&lt;br&gt;User" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="83" y="345" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0qrOs5zlSHAR0b6muMkG-3" target="0qrOs5zlSHAR0b6muMkG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-3" value="ISP&#39;s DNS Resolver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="63" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-8" value="Router" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="189" y="339" width="57" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-9" value="Router" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="575" y="345" width="57" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-10" value="Router" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="261" y="394" width="57" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-11" value="Router" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="327" y="339" width="57" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-12" value="Router" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="689" y="318" width="57" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-13" value="Router" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="575" y="249" width="57" height="31" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
