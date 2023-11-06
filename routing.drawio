@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T13:54:23.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="BLoLrDNd-dM9WarO-uBc" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T13:58:15.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="QjDSWAZ23hWTTgwI_DIu" version="22.0.8" type="github">
   <diagram name="Page-1" id="Bof4_lvkWmIuTJa6RpOz">
-    <mxGraphModel dx="1793" dy="883" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2643" dy="883" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,6 +74,12 @@
         </mxCell>
         <mxCell id="0qrOs5zlSHAR0b6muMkG-28" value="Identity Provider" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1146" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-37" value="Get IP of www.example.com&lt;br&gt;EX: 198.168.38.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-46.5" y="317" width="157" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="0qrOs5zlSHAR0b6muMkG-38" value="Admin has control of this router&#xa;Can change settings, like setting&#xa;to Multicast mode or Unicast mode&#xa;if router supports MAC switch&#xa;thing&#xa;Assume Multicast mode" style="text;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="626" y="400.5" width="192" height="101" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
