@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T14:04:29.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="FmtT8J-y_kWwrihew3v8" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T14:25:33.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="fFmROXM2dwcZ1DrnepUO" version="22.1.0" type="github">
   <diagram name="Page-1" id="8KWoaxwgEU8B9qcAYmeG">
     <mxGraphModel dx="2895" dy="3928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2093,8 +2093,8 @@
         <mxCell id="zVBB_8oh82S_Z95kJKK4-791" value="Router 90" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-73" y="-2368.69" width="60" height="13.5" as="geometry" />
         </mxCell>
-        <mxCell id="zVBB_8oh82S_Z95kJKK4-793" value="Will take many more hops&lt;br&gt;to reach new region over&lt;br&gt;the internet than over &lt;br&gt;internal network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="-2536" width="150" height="70" as="geometry" />
+        <mxCell id="zVBB_8oh82S_Z95kJKK4-793" value="Will take many more hops&lt;br&gt;to reach new region over&lt;br&gt;the internet than over &lt;br&gt;internal network&lt;br&gt;&lt;br&gt;(Also I&#39;m trying to substitute&lt;br&gt;distance/latency with just&lt;br&gt;# of hops to keep things &lt;br&gt;simple)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-2601.5" width="160" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
