@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T14:06:50.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="m1IQ7uPNBQKytw9jq3Ye" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T16:09:02.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="eYB9ceRmDmmoTuMWH6IO" version="22.0.8" type="github">
   <diagram name="Page-1" id="RRSpOChAPI_KbZhBSmLg">
-    <mxGraphModel dx="1647" dy="1856" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6136" dy="4216" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -456,6 +456,9 @@
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-282" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1293" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EIAWiYakASDLayadyy67-286" value="&lt;div&gt;https://developer.squareup.com/docs/web-payments/overview&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a class=&quot;box_b-r-6__eFn6m native-button_button__Iabj1 native-button_no-border__LHOho native-button_button-padding__xncbB focus-ring-styles_focus-ring__5P6v0 anchored-heading_trigger__XOE12 anchored-heading_button__TMpy8&quot; aria-label=&quot;click to copy link for payment-session-timeout&quot; tabindex=&quot;0&quot; role=&quot;link&quot; data-tracking-id=&quot;heading-anchor&quot;&gt;&lt;svg class=&quot;anchored-heading_icon__4HlYl&quot; viewBox=&quot;0 0 16 16&quot; height=&quot;16&quot; width=&quot;16&quot;&gt;&lt;/svg&gt;&lt;/a&gt;&lt;div class=&quot;box_m-t-5x__L06CC box_m-b-2x__nVJGZ&quot; data-markdown-heading=&quot;2&quot;&gt;&lt;div class=&quot;anchored-heading_heading__2wlPu&quot;&gt;&lt;div class=&quot;anchored-heading_container__rfGXv&quot;&gt;&lt;/div&gt;&lt;h2 class=&quot;heading_base__MS64u heading_heading-30__MH4YZ&quot;&gt;Payment session timeout&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;The&lt;br/&gt; payment session times out after 24 hours. If the buyer hasn&#39;t completed&lt;br/&gt; filling out the payment form, the buyer must refresh the browser to &lt;br/&gt;complete the payment. Fields that generate based on the issuing country &lt;br/&gt;of the credit card might not save input that the buyer entered.&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5369.5" y="2342" width="367" height="181" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
