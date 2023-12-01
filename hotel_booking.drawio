@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T13:06:04.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="UjLwm8BybfgITwONuO6C" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T13:16:25.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="XAgPegYFqBxvZxo2jsq3" version="22.0.8" type="github">
   <diagram name="Page-1" id="RRSpOChAPI_KbZhBSmLg">
-    <mxGraphModel dx="3590" dy="2457" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3249" dy="2277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EIAWiYakASDLayadyy67-263" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-249" target="EIAWiYakASDLayadyy67-215">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-249" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1821" y="991" width="208" height="85.5" as="geometry" />
         </mxCell>
@@ -299,11 +296,8 @@
         <mxCell id="EIAWiYakASDLayadyy67-214" value="Browser:&lt;br&gt;&lt;br&gt;Customer Email" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1181" y="1186" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-215" value="AuthCapture Workflow / External Payment Processor?????????????? WHAT ABOUT DELETE WHILE PROCESSING?" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2251.5" y="1005" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-219" value="PaymentEmail&lt;br&gt;Service" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="2606" y="1117.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="2570" y="895" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-220" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" source="EIAWiYakASDLayadyy67-222" target="EIAWiYakASDLayadyy67-224" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -312,31 +306,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-222" value="&lt;div&gt;Notification Service&lt;/div&gt;&lt;div&gt;(SNS, Camel, etc)&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2249" y="1121.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="2213" y="899" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-224" value="Other Future Topic Subscribers" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="1037.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="2414" y="815" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-225" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" source="EIAWiYakASDLayadyy67-226" target="EIAWiYakASDLayadyy67-219" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-226" value="&#xa;Queue (SQS, RabbitMQ, etc)&#xa;&#xa;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="1117.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="2414" y="895" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-227" value="PaymentEmail&lt;br&gt;Service" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="2616" y="1127.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="2580" y="905" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-269" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-228" target="EIAWiYakASDLayadyy67-214">
+        <mxCell id="EIAWiYakASDLayadyy67-433" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-228" target="EIAWiYakASDLayadyy67-214">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2766" y="1167" />
-              <mxPoint x="2766" y="1346" />
-              <mxPoint x="1221" y="1346" />
+              <mxPoint x="2887" y="1617" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-228" value="UserEmail&lt;br&gt;TaskRunners" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="2626" y="1137.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="2590" y="915" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-230" value="Browser:&lt;br&gt;Hotel Front Desk Checking Reservation" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1181" y="1365" width="80" height="80" as="geometry" />
@@ -410,35 +402,6 @@
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-257" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-234" target="EIAWiYakASDLayadyy67-208">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-264" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-249" target="EIAWiYakASDLayadyy67-222">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-265" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-215" target="EIAWiYakASDLayadyy67-208">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2312" y="824" />
-              <mxPoint x="1922" y="824" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-267" value="Payment Failed&lt;br&gt;Update Payment Status: Failed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="EIAWiYakASDLayadyy67-265">
-          <mxGeometry x="0.1792" y="3" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-266" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-215" target="EIAWiYakASDLayadyy67-208">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2312" y="756" />
-              <mxPoint x="1922" y="756" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-268" value="Payment Succeeded:&lt;br&gt;Update payment status: Succeeded" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="EIAWiYakASDLayadyy67-266">
-          <mxGeometry x="0.1765" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-270" value="another sns for email sending?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2806" y="1206.571428571429" width="60" height="30" as="geometry" />
@@ -854,7 +817,7 @@
         <mxCell id="EIAWiYakASDLayadyy67-426" value="" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1741" y="453.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-427" value="Task Runners" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EIAWiYakASDLayadyy67-427" value="PaymentComplete&lt;br&gt;Task Runners" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1751" y="463.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EIAWiYakASDLayadyy67-428" value="&lt;div&gt;Could process each in parallel&lt;/div&gt;&lt;br&gt;Could wait until have some built up&lt;br&gt;and then do fewer batch-writes&lt;br&gt;&lt;br&gt;Could schedule to only run after biz&lt;br&gt;hours to avoid overloading DB&lt;br&gt;during peak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
@@ -863,9 +826,17 @@
         <mxCell id="EIAWiYakASDLayadyy67-429" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-427" target="EIAWiYakASDLayadyy67-208">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EIAWiYakASDLayadyy67-430" value="Updates reservation&lt;br&gt;sets status to&lt;br&gt;PAYMENT_SUCCESSFUL&lt;br&gt;&lt;br&gt;&lt;div&gt;(this assumes the PSP&lt;/div&gt;&lt;div&gt;is passed the info needed&lt;br&gt;to make this write efficiently,&lt;/div&gt;&lt;div&gt;If this is not the case,&lt;br&gt;booking service would need&lt;br&gt;to write out to a separate&lt;br&gt;DB mapping PspUuid to&lt;br&gt;reservation info)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="EIAWiYakASDLayadyy67-429">
+        <mxCell id="EIAWiYakASDLayadyy67-430" value="Updates reservation&lt;br&gt;sets status to&lt;br&gt;PAYMENT_SUCCESSFUL&lt;br&gt;or PAYMENT_FAILED and&lt;br&gt;update DB so the room&lt;br&gt;is available&lt;br&gt;&lt;br&gt;(could also just delete the &lt;br&gt;reservation and update&lt;br&gt;some other internal DB&lt;br&gt;for customer support &lt;br&gt;if needed)&lt;br&gt;&lt;br&gt;&lt;div&gt;(this assumes the PSP&lt;/div&gt;&lt;div&gt;is passed the info needed&lt;br&gt;to make this write efficiently,&lt;/div&gt;&lt;div&gt;If this is not the case,&lt;br&gt;booking service would need&lt;br&gt;to write out to a separate&lt;br&gt;DB mapping PspUuid to&lt;br&gt;reservation info)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="EIAWiYakASDLayadyy67-429">
           <mxGeometry x="-0.1308" y="1" relative="1" as="geometry">
-            <mxPoint x="-77" y="-33" as="offset" />
+            <mxPoint x="-83" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIAWiYakASDLayadyy67-431" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EIAWiYakASDLayadyy67-208" target="EIAWiYakASDLayadyy67-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIAWiYakASDLayadyy67-432" value="Can do logical replication&lt;br&gt;to reduce load on leader&lt;br&gt;if needed, but at that&lt;br&gt;point may as well just&lt;br&gt;have auth-capture&lt;br&gt;workflow handle this&lt;br&gt;&lt;br&gt;(Same task runner that&lt;br&gt;writes successful&lt;br&gt;payment)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="EIAWiYakASDLayadyy67-431">
+          <mxGeometry x="0.1349" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
