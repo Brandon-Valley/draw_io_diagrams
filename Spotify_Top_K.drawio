@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T17:15:39.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="HIneHBIXdqq_h5osV4Yr" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T17:26:39.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="giCfjO2ZH99NDIHFCU3-" version="22.1.5" type="github">
   <diagram name="Page-1" id="pjqLWg9D4QJs4aynukWV">
-    <mxGraphModel dx="2284" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2045" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,11 +49,11 @@
         <mxCell id="_Esm-FiioBOgBzFB0kT--18" value="Stream Processing&lt;br&gt;Engine&lt;br&gt;Spark" style="whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1760" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_Esm-FiioBOgBzFB0kT--20" value="&lt;div align=&quot;left&quot;&gt;Shard first by Genre&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Do count-min-sketch on each node&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Make each batch the min time period the user will see&lt;br&gt;Each node throws out all but the max # songs(~1000?) the user can see&lt;br&gt;TODO?&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="120" width="420" height="90" as="geometry" />
+        <mxCell id="_Esm-FiioBOgBzFB0kT--20" value="&lt;div align=&quot;left&quot;&gt;Do count-min-sketch on each node&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Batch size is single shot time window we show to user (5 sec)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Each node throws out all but the max # songs(10) the user can see&lt;br&gt;Simple write to DB for user to fetch&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="370" width="390" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_Esm-FiioBOgBzFB0kT--21" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;Variation 1:&lt;/font&gt;&lt;div style=&quot;font-size: 24px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; - Only top 10 songs on Spotify (no Genres)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; - Single Time window - short as possible (last 5 sec)&lt;br&gt;&amp;nbsp; - Exact Count not required (count-min-sketch)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot; align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="-270" width="590" height="220" as="geometry" />
+          <mxGeometry x="1260" y="-110" width="590" height="220" as="geometry" />
         </mxCell>
         <mxCell id="_Esm-FiioBOgBzFB0kT--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="_Esm-FiioBOgBzFB0kT--28" target="_Esm-FiioBOgBzFB0kT--31">
           <mxGeometry relative="1" as="geometry" />
@@ -76,8 +76,17 @@
         <mxCell id="_Esm-FiioBOgBzFB0kT--37" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1760" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_Esm-FiioBOgBzFB0kT--38" value="Other Subscribed&lt;br&gt;Services" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="_Esm-FiioBOgBzFB0kT--38" value="Other Subscribed&lt;br&gt;Services&lt;br&gt;(OLTP &amp;amp; OLAP)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1770" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Esm-FiioBOgBzFB0kT--40" value="Top&lt;br&gt;Songs&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="440" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Esm-FiioBOgBzFB0kT--41" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="_Esm-FiioBOgBzFB0kT--18" target="_Esm-FiioBOgBzFB0kT--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Esm-FiioBOgBzFB0kT--42" value="Redis&lt;br&gt;&lt;br&gt;Could do cluster for&lt;br&gt;higher availability,&lt;br&gt;but" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="433" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
