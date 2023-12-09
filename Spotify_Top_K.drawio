@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T13:28:07.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="BuRLbQVB5maZkz4CobnI" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-09T13:28:14.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="OykCDzoUUZzqTjTCaA7M" version="22.1.5" type="github">
   <diagram name="Page-1" id="pjqLWg9D4QJs4aynukWV">
     <mxGraphModel dx="2166" dy="1879" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
           <mxGeometry x="-500" y="-790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_Esm-FiioBOgBzFB0kT--75" value="&lt;div align=&quot;left&quot;&gt;- Rate Limited&lt;br&gt;- Throttling&lt;br&gt;- Service discovery&lt;br&gt;- Load Balancing&lt;br&gt;- Service Metrics&lt;br&gt;- Logging&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="-720" width="120" height="90" as="geometry" />
+          <mxGeometry x="-500" y="-730" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_Esm-FiioBOgBzFB0kT--76" value="API Gateway" style="whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-670" y="-790" width="120" height="60" as="geometry" />
