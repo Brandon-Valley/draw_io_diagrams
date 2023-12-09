@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T16:32:12.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="5edH8Kqtvc3KQeas27ta" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-09T16:37:30.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="eiQtH6uVDpdl7KuvAcIu" version="22.1.7" type="github">
   <diagram name="Page-1" id="QK14kRCSA45E_pS3DSbU">
-    <mxGraphModel dx="3718" dy="1508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1997" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qVbiOAFu_IZisVz8Lyja-1" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;Variation #1&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;- 2 Users who have each other&#39;s&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;phone numbers can chat directly&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;- NO read status, other person is typing, etc&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-5" y="38" width="490" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qVbiOAFu_IZisVz8Lyja-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVbiOAFu_IZisVz8Lyja-3" target="qVbiOAFu_IZisVz8Lyja-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qVbiOAFu_IZisVz8Lyja-3" value="&lt;div align=&quot;left&quot;&gt;Browser&lt;br&gt;User&amp;nbsp; first:&lt;br&gt; - downloads app&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Turns thier phone back on&lt;br&gt;- Airplain lands (turns internet back on)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;align=left;" vertex="1" parent="1">
           <mxGeometry x="8" y="370" width="162" height="120.84" as="geometry" />
@@ -18,6 +21,24 @@
         </mxCell>
         <mxCell id="qVbiOAFu_IZisVz8Lyja-7" value="&lt;div&gt;Browser:&lt;/div&gt;&lt;div&gt;User gets push notification b/c they got a new msg&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
           <mxGeometry x="8" y="900" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qVbiOAFu_IZisVz8Lyja-8" value="&lt;div align=&quot;center&quot;&gt;API Gateway&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="271" y="400.42" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVbiOAFu_IZisVz8Lyja-10" value="&lt;div align=&quot;center&quot;&gt;API Gateway&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-219.99999999999994" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVbiOAFu_IZisVz8Lyja-11" value="&lt;div align=&quot;center&quot;&gt;Service&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-219.99999999999994" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVbiOAFu_IZisVz8Lyja-12" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;KEY:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="-350" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qVbiOAFu_IZisVz8Lyja-13" value="&lt;div align=&quot;left&quot;&gt;- Routing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Auth&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME logging&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME Metrics&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- MAYBE caching&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- A/B testing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME service discovery&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Rate limiting&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Throttling&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-505" y="-165" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qVbiOAFu_IZisVz8Lyja-14" value="&lt;div align=&quot;left&quot;&gt;- Load balancing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Service discovery&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Rate limiting&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Throttling&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Caching&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Logging&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Metrics&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-160" width="120" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
