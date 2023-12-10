@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T22:45:16.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="URrOCZogIfGsTR2K7fp5" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T22:52:52.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="MmgAmj6QaNrIQd-z3H79" version="22.1.7" type="github">
   <diagram name="Page-1" id="QK14kRCSA45E_pS3DSbU">
-    <mxGraphModel dx="7109" dy="1994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6662" dy="1759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,7 +264,7 @@
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-122" value="#5&lt;br&gt;Request &lt;br&gt;missed&lt;br&gt;msgs&lt;br&gt;&lt;br&gt;Passes timestamp/&lt;br&gt;&lt;div&gt;msg ID of last known&lt;br&gt;msg from ANY chat/&lt;br&gt;group&lt;br&gt;&lt;br&gt;Async so retry w/ &lt;br&gt;timeout, request new&lt;br&gt;connection if needed&lt;br&gt;&lt;br&gt;msgs have dedup ids&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="k1oaCOUUfOWePzB8ZUSD-119">
           <mxGeometry x="-0.4265" y="-9" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="221" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-87" value="&lt;div&gt;Browser:&lt;/div&gt;&lt;div&gt;User &lt;br&gt;needs to get missed msgs&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
@@ -290,7 +290,7 @@
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-339" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="k1oaCOUUfOWePzB8ZUSD-93" target="k1oaCOUUfOWePzB8ZUSD-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k1oaCOUUfOWePzB8ZUSD-340" value="#3&lt;br&gt;&lt;div&gt;Route &lt;br&gt;&lt;/div&gt;&lt;div&gt;Websocket&lt;br&gt;Establish&lt;br&gt;Request&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="k1oaCOUUfOWePzB8ZUSD-339">
+        <mxCell id="k1oaCOUUfOWePzB8ZUSD-340" value="#3&lt;br&gt;&lt;div&gt;Route &lt;br&gt;&lt;/div&gt;&lt;div&gt;Websocket&lt;br&gt;Establish&lt;br&gt;Request&lt;br&gt;through HTTP&lt;br&gt;Tunnel&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="k1oaCOUUfOWePzB8ZUSD-339">
           <mxGeometry x="-0.1899" y="-6" relative="1" as="geometry">
             <mxPoint x="32" y="-14" as="offset" />
           </mxGeometry>
@@ -326,9 +326,9 @@
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-116" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="k1oaCOUUfOWePzB8ZUSD-71" target="k1oaCOUUfOWePzB8ZUSD-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k1oaCOUUfOWePzB8ZUSD-120" value="#4&lt;br&gt;Handshake" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="k1oaCOUUfOWePzB8ZUSD-116">
+        <mxCell id="k1oaCOUUfOWePzB8ZUSD-120" value="#4&lt;br&gt;&lt;div&gt;Handshake using &quot;IP&quot; of &quot;Actual&lt;/div&gt;&lt;div&gt;Websocket Server&quot; so that when&lt;br&gt;client response, they w???????????????????????????&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="k1oaCOUUfOWePzB8ZUSD-116">
           <mxGeometry x="0.2538" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="54" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-118" value="Stateful WS&lt;br&gt;Connection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
@@ -954,6 +954,12 @@
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-336" value="ZK Knows roughly how many&lt;br&gt;open ports on each&lt;br&gt;machiene" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="183" y="1767" width="163" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k1oaCOUUfOWePzB8ZUSD-346" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#B20000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="1759" width="168" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="k1oaCOUUfOWePzB8ZUSD-347" value="All traffic for the websocket server&lt;br&gt;go through the API gateway using&lt;br&gt;http(s) tunneling, only showed it&lt;br&gt;for establishing the connection to show&lt;br&gt;how API Gateway talks to Zookeeper&lt;br&gt;to know which websocket server to &lt;br&gt;forward the request too" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1651" width="209" height="104" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
