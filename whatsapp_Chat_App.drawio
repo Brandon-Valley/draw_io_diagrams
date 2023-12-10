@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T18:52:38.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="idbLIgqtmnr-zIAL6me7" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T19:04:06.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="RcI8hOUVkM0MSFiNU9F2" version="22.1.7" type="github">
   <diagram name="Page-1" id="QK14kRCSA45E_pS3DSbU">
-    <mxGraphModel dx="12770" dy="4970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="15160" dy="6227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="k1oaCOUUfOWePzB8ZUSD-182" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;dashed=1;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="-8" y="1118" width="388" height="1620" as="geometry" />
-        </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;dashed=1;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="186" y="864" width="388" height="1620" as="geometry" />
         </mxCell>
@@ -165,13 +162,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
-          <mxGeometry x="1012.5" y="1749" width="120" height="60" as="geometry" />
+          <mxGeometry x="1083" y="1847" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
-          <mxGeometry x="1022.5" y="1759" width="120" height="60" as="geometry" />
+          <mxGeometry x="1093" y="1857" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-30" value="SendMsg&lt;br&gt;Task-Runners" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
-          <mxGeometry x="1033.5" y="1769" width="120" height="60" as="geometry" />
+          <mxGeometry x="1104" y="1867" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-33" value="UseMachineId&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="944" y="1631" width="95" height="80" as="geometry" />
@@ -914,12 +911,6 @@
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-314" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="k1oaCOUUfOWePzB8ZUSD-310" target="k1oaCOUUfOWePzB8ZUSD-312">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k1oaCOUUfOWePzB8ZUSD-315" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="923" y="-116" as="sourcePoint" />
-            <mxPoint x="1032" y="-82" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-316" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;groupId: ... - partition key&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;ServerSideMsgTimestamp: 1670005000 - Sort key&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;msgId: ... - de-dup - sort? - TODO&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;FromUserId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;msgTxt: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;imgs3url: TODO&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2108" y="745" width="259" height="170" as="geometry" />
         </mxCell>
@@ -945,6 +936,9 @@
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-325" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 108px;&quot;&gt;TODO:&lt;/font&gt;&lt;br&gt;&lt;br&gt;you can often do something smart on the frontend to make sure two likely&lt;br/&gt; to communicate clients connect to the same server. For instance direct &lt;br/&gt;all clients from the same country to the same server using DNS load &lt;br/&gt;balancing. &lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-560.5" y="-918" width="372" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="k1oaCOUUfOWePzB8ZUSD-327" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 108px;&quot;&gt;Capacity:&lt;/font&gt;&lt;br&gt;&lt;br&gt;- 500 million daily active users&lt;br&gt;- 40 msgs avg sent per user per day&lt;br&gt;~100bytes / msg&lt;br&gt;&lt;br&gt;- = 20 billion msgs per day&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="8" y="-771" width="468" height="221" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
