@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T15:12:36.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="Cg05ukHh6tH-nd-L4gm8" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T15:16:39.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="sp91v0vb2wPngTCAqogI" version="22.1.7" type="github">
   <diagram name="Page-1" id="QK14kRCSA45E_pS3DSbU">
-    <mxGraphModel dx="5163" dy="2637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3321" dy="1679" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -725,7 +725,7 @@
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-474" value="" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#1ba1e2;" edge="1" parent="1" source="k1oaCOUUfOWePzB8ZUSD-450" target="k1oaCOUUfOWePzB8ZUSD-471">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k1oaCOUUfOWePzB8ZUSD-476" value="Trade-off made&lt;br&gt;&lt;br&gt;Since GroupsByUserDB is async updated, possible that group create vs other user rejoins network time creates very rare case where newly added to group user doesn&#39;t see that they were added to&amp;nbsp; the group&lt;br&gt;&lt;br&gt;This user see it get fixed by restarting the app" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="k1oaCOUUfOWePzB8ZUSD-476" value="Trade-off made&lt;br&gt;&lt;br&gt;Since GroupsByUserDB is async updated, possible that group create vs other user rejoins network time creates very rare case where newly added to group user doesn&#39;t see that they were added to&amp;nbsp; the group&lt;br&gt;&lt;br&gt;&lt;div&gt;This user see it get fixed by restarting the app&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ow wait if I trigger user added msg off that db instead does that solve this?????????????????????????????????????????????????????????????????????????????&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2215" y="1372" width="236" height="181" as="geometry" />
         </mxCell>
         <mxCell id="k1oaCOUUfOWePzB8ZUSD-479" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=118;entryDy=181;entryPerimeter=0;labelBackgroundColor=default;strokeColor=#000000;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#1ba1e2;" edge="1" parent="1" source="k1oaCOUUfOWePzB8ZUSD-452" target="k1oaCOUUfOWePzB8ZUSD-476">
