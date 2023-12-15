@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T12:19:57.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="UIvEZH8zXr8mBNy4gsw_" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T12:20:35.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="Eu8TjdPCcX82J0Zi_0CE" version="22.1.8" type="github">
   <diagram name="Page-1" id="0myUZ8c7dWHY-Bk3ga8E">
     <mxGraphModel dx="13603" dy="8247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -451,6 +451,9 @@
         </mxCell>
         <mxCell id="zfVJkD1uQYSn-WlJ8Y26-134" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;Random Redis Geohash Notes&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1865" y="2918" width="1015" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zfVJkD1uQYSn-WlJ8Y26-135" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1540" width="713" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
