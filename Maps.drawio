@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T17:41:20.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.7" etag="oaopWJmc9nP_-jU3uHou" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T18:03:44.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="HMk316jJrxUwXjXkGy5j" version="22.1.11" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel>
+    <mxGraphModel dx="1658" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-1" target="7P7Zeam2r1IZ2mJIhG_Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-1" value="Browser:&lt;br&gt;User Typing in&lt;br&gt;search bar" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-2" target="7P7Zeam2r1IZ2mJIhG_Y-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-2" value="Browser:&lt;br&gt;User enters search (Gas stations near me - show map w/ pins AND gas&amp;nbsp; prices)&lt;br&gt;No ETA yet" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="360" y="550" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-6" target="7P7Zeam2r1IZ2mJIhG_Y-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-6" value="Browser:&lt;br&gt;User selects &quot;directions&quot;&lt;br&gt; &lt;br&gt;(Displays map showing route)&lt;br&gt;(get directions)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1010" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-8" target="7P7Zeam2r1IZ2mJIhG_Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-8" value="&lt;br&gt;Browser:&lt;br&gt;User clicks on map biz pin &lt;br&gt;&lt;br&gt;(show biz location info, hours, PICS, INCLUDING ETA)&lt;br&gt;&lt;br&gt;Stretch goal - connect to analytics for &quot;busy at this time graph&quot; &amp;amp; comments&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="330" y="750" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-11" value="Browser:&lt;br&gt;User selects &quot;Start&quot; &amp;amp; starts driving&lt;br&gt; &lt;br&gt;(Displays zoomed-in map, street names, current and next turn(s)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1210" width="120" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
