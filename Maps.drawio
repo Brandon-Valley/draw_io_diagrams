@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T12:32:55.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="wxOvxMZUHMwU5cghBL38" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T00:18:23.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="--BIZSyUcuXOwqQaksfl" version="22.1.11" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
     <mxGraphModel dx="2595" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-2" target="7P7Zeam2r1IZ2mJIhG_Y-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-2" value="Browser:&lt;br&gt;User enters search (Gas stations near me - show map w/ pins AND gas&amp;nbsp; prices)&lt;br&gt;No ETA yet" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-2" value="Browser:&lt;br&gt;User enters search (Gas stations near me - show map w/ pins, address, hours, RANKED gas prices)&lt;br&gt;No ETA yet" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
           <mxGeometry x="360" y="550" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-6" target="7P7Zeam2r1IZ2mJIhG_Y-11">
@@ -42,6 +42,21 @@
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-18" value="&lt;div style=&quot;font-size: 36px;&quot; align=&quot;left&quot;&gt;TODO&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- https://aws.amazon.com/cloudsearch/&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="58" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-19" value="CDN" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-21" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="340" width="120" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-23" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-24" value="&lt;div align=&quot;left&quot;&gt;- Load Balancing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Redundant&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Auth&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Routing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- A/B Testing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME Rate-Limiting&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME Throttling&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME logging&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME Metrics&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Firewall&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Circuit Breaker&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-120" width="140" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
