@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T13:57:29.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="9A84-0lX7NW3hCAQwNoN" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T13:59:49.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="4yGcaIqJkI4hpV6mBlWO" version="22.1.11" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel dx="6163" dy="2537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4726" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,22 +84,14 @@
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-27" value="Places&lt;br&gt;DB&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="1620" y="120" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-29" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-27" target="7P7Zeam2r1IZ2mJIhG_Y-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-30" value="CDC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="7P7Zeam2r1IZ2mJIhG_Y-29" vertex="1" connectable="0">
-          <mxGeometry x="-0.0084" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-31" value="AddPlace&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" parent="1" vertex="1">
-          <mxGeometry x="740" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-32" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-31" target="7P7Zeam2r1IZ2mJIhG_Y-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-33" value="TODO?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="710" y="48" width="60" height="30" as="geometry" />
+          <mxGeometry x="630" y="-200" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-34" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" parent="1" vertex="1">
           <mxGeometry x="-660" y="-170" width="120" height="60" as="geometry" />
@@ -297,6 +289,9 @@
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-58" value="PlaceAnalyzedData&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
           <mxGeometry x="720" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-62" value="(pull-based)&amp;nbsp; Log based msg broker&lt;br&gt;Kafka, Kinesis" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="200" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
