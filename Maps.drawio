@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T13:39:41.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="BJWjUj-BWqzazz9dfYyT" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T13:57:29.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="9A84-0lX7NW3hCAQwNoN" version="22.1.11" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel dx="5058" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6163" dy="2537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,6 +38,9 @@
           <mxGeometry x="-0.2076" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-59" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-8" target="iXKo_MBIXvuYCFxhrPrw-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-8" value="&lt;br&gt;Browser:&lt;br&gt;User clicks on map biz pin &lt;br&gt;&lt;br&gt;(show biz location info, hours, PICS, INCLUDING ETA)&lt;br&gt;&lt;br&gt;Stretch goal - connect to analytics for &quot;busy at this time graph&quot; &amp;amp; comments&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
           <mxGeometry x="330" y="750" width="180" height="180" as="geometry" />
@@ -79,7 +82,7 @@
           <mxGeometry x="960" y="320" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-27" value="Places&lt;br&gt;DB&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
-          <mxGeometry x="860" y="230" width="90" height="70" as="geometry" />
+          <mxGeometry x="1620" y="120" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7P7Zeam2r1IZ2mJIhG_Y-29" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-27" target="7P7Zeam2r1IZ2mJIhG_Y-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -135,7 +138,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-7" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;edgeId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;startNodeId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;destNode2Id: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;weight: ... (time to drive from start to dest)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="680" width="240" height="90" as="geometry" />
+          <mxGeometry x="1130" y="795" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-8" value="&lt;div&gt;TODO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;cassandra for locationsDB&lt;br&gt;Check why https://www.codekarle.com/system-design/Google_Maps-system-design.html used &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-950" y="-762" width="500" height="70" as="geometry" />
@@ -269,13 +272,31 @@
           <mxGeometry x="1880" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-49" value="Websocket&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="1400" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-50" value="UserConnection&lt;br&gt;Mappings" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="1450" y="1530" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-51" value="Websocket&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="1500" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-53" value="MachineIdByUserId&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-54" value="TrafficTimes&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-55" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="iXKo_MBIXvuYCFxhrPrw-54" target="iXKo_MBIXvuYCFxhrPrw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-56" value="UpdateMap&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-57" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="iXKo_MBIXvuYCFxhrPrw-56" target="iXKo_MBIXvuYCFxhrPrw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-58" value="PlaceAnalyzedData&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
