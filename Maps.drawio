@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T18:22:03.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="xvdUN-OpFhvNAGLOlZIo" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T18:26:49.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="QKHKSgnb-o7HCwMFc_z5" version="22.1.11" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel dx="4979" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5611" dy="2249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,7 +144,7 @@
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-6" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="iXKo_MBIXvuYCFxhrPrw-2" target="iXKo_MBIXvuYCFxhrPrw-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iXKo_MBIXvuYCFxhrPrw-7" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;edgeId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;startNodeId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;destNode2Id: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;weight: ... (time to drive from start to dest)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="iXKo_MBIXvuYCFxhrPrw-7" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;edgeId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;startNodeId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;destNodeId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;weight: ... (time to drive from start to dest)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-710" y="1020" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-8" value="&lt;div&gt;TODO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;cassandra for locationsDB&lt;br&gt;Check why https://www.codekarle.com/system-design/Google_Maps-system-design.html used &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -431,11 +431,19 @@
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-113" value="TODO how to get traffic updates w/ route re-calc???????????????????????????????" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="680" y="1310" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="133cAT77LsvnSHVNWq0I-1" value="e" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="560" width="80" height="80" as="geometry" />
+        <mxCell id="133cAT77LsvnSHVNWq0I-1" value="e" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="133cAT77LsvnSHVNWq0I-12" value="1234567" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="133cAT77LsvnSHVNWq0I-3" target="133cAT77LsvnSHVNWq0I-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="133cAT77LsvnSHVNWq0I-15" style="edgeStyle=none;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="133cAT77LsvnSHVNWq0I-3" target="133cAT77LsvnSHVNWq0I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="133cAT77LsvnSHVNWq0I-16" value="333" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="133cAT77LsvnSHVNWq0I-15">
+          <mxGeometry x="0.1954" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="133cAT77LsvnSHVNWq0I-3" value="c" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-600" y="910" width="80" height="80" as="geometry" />
