@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T15:41:08.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="a6pEx_CxSoRbYIU-8nUj" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T16:04:49.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="qMSsBB78AJJcnvp_LNd3" version="22.1.16" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel dx="12232" dy="5048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7179" dy="2421" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -624,8 +624,8 @@
         <mxCell id="So-jFzFl0SxJRjuvLKv8-36" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="So-jFzFl0SxJRjuvLKv8-33" target="So-jFzFl0SxJRjuvLKv8-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="So-jFzFl0SxJRjuvLKv8-37" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;UserId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Route: [segment1,segment2, ...]&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="1407" width="186" height="65" as="geometry" />
+        <mxCell id="So-jFzFl0SxJRjuvLKv8-37" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;UserId: ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Route: [edge1,edge2, ...]&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="1407" width="150" height="65" as="geometry" />
         </mxCell>
         <mxCell id="So-jFzFl0SxJRjuvLKv8-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
           <mxGeometry x="2135" y="1501" width="120" height="60" as="geometry" />
@@ -636,13 +636,13 @@
         <mxCell id="So-jFzFl0SxJRjuvLKv8-40" value="Taskrunners" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
           <mxGeometry x="2155" y="1521" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="So-jFzFl0SxJRjuvLKv8-44" value="UserBySegment&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="So-jFzFl0SxJRjuvLKv8-44" value="UserByEdge&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="2292" y="1569" width="104" height="80" as="geometry" />
         </mxCell>
         <mxCell id="So-jFzFl0SxJRjuvLKv8-45" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="So-jFzFl0SxJRjuvLKv8-40" target="So-jFzFl0SxJRjuvLKv8-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="So-jFzFl0SxJRjuvLKv8-46" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;SegmentId: segment1&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Users: [user1, user2, user3, ...]&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="So-jFzFl0SxJRjuvLKv8-46" value="&lt;div align=&quot;left&quot;&gt;{&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;SegmentId: edge1&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Users: [user1, user2, user3, ...]&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2313" y="1472" width="172" height="65" as="geometry" />
         </mxCell>
         <mxCell id="So-jFzFl0SxJRjuvLKv8-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
