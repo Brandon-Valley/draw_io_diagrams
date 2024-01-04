@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T13:31:17.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="J7ei2mQ8jO7HlAXtB3oj" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T13:33:09.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="2acwFoAqt3d2Drt5AQb7" version="22.1.16" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel dx="10700" dy="4040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12580" dy="5016" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,9 +140,6 @@
           <mxGeometry x="720" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-1" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="7P7Zeam2r1IZ2mJIhG_Y-8" target="7P7Zeam2r1IZ2mJIhG_Y-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="So-jFzFl0SxJRjuvLKv8-228" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="iXKo_MBIXvuYCFxhrPrw-2" target="So-jFzFl0SxJRjuvLKv8-208" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-2" value="ETA&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" parent="1" vertex="1">
@@ -451,8 +448,8 @@
         <mxCell id="133cAT77LsvnSHVNWq0I-18" value="Stream Processing&lt;br&gt;engine&lt;br&gt;(Spark, flink, etc)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="1095" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="133cAT77LsvnSHVNWq0I-20" value="keeps a rolling window of&lt;br&gt;last n ppl to traverse each edgeId&lt;br&gt;Send update to map DB when average&lt;br&gt;changes outside some set threshold" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="928" y="1098" width="222" height="65" as="geometry" />
+        <mxCell id="133cAT77LsvnSHVNWq0I-20" value="keeps a rolling window of&lt;br&gt;last n ppl to traverse each edgeId&lt;br&gt;Send update to when average&lt;br&gt;changes outside some set threshold" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="938" y="1098" width="203" height="65" as="geometry" />
         </mxCell>
         <mxCell id="So-jFzFl0SxJRjuvLKv8-27" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" parent="1" source="133cAT77LsvnSHVNWq0I-26" target="So-jFzFl0SxJRjuvLKv8-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
