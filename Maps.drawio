@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T14:40:52.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="dAAWPrxzqLyN598aXgmj" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T14:42:25.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="qWDBDCscrITVg1ezmqHJ" version="22.1.16" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel dx="10113" dy="3735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="11483" dy="4447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -305,6 +305,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="980" y="1440" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lKTFxl5HVEZFYznF9EYL-81" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="iXKo_MBIXvuYCFxhrPrw-93" target="lKTFxl5HVEZFYznF9EYL-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXKo_MBIXvuYCFxhrPrw-93" value="(pull-based)&amp;nbsp; Log based msg broker&lt;br&gt;Kafka, Kinesis" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="740" y="1415" width="240" height="30" as="geometry" />
@@ -1926,6 +1929,9 @@
             <mxPoint x="380" y="2132" as="sourcePoint" />
             <mxPoint x="494" y="2022" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lKTFxl5HVEZFYznF9EYL-80" value="FindNewRoads&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1462" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
