@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T15:08:55.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="780uGdHtAWQv9uNEwq31" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T15:14:22.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="hgW_8a7xrBfjHKe2Dldf" version="22.1.16" type="github">
   <diagram name="Page-1" id="2I9EhMeUA_te9yX8Prx0">
-    <mxGraphModel dx="9825" dy="5870" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3245" dy="2454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -635,6 +635,9 @@
         </mxCell>
         <mxCell id="lKTFxl5HVEZFYznF9EYL-80" value="FindNewRoads&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
           <mxGeometry x="1180" y="1462" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lKTFxl5HVEZFYznF9EYL-83" value="&lt;div&gt;Running graph algo like A*&lt;/div&gt;&lt;div&gt;with in-mem geospatial index&lt;br&gt;like Quad-Tree&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1976" y="582" width="173" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
