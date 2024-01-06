@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T22:21:52.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="XDa29hi1onXb4kCwhXN8" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T15:34:58.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="Pe299PG9RZNXjg3hLAB7" version="22.1.17" type="github">
   <diagram name="Page-1" id="YbS4Gh5hh1_eg9GZgAk_">
-    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aK8N_R9uy3vBh9vHCZZx-1" value="Service" style="whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="aK8N_R9uy3vBh9vHCZZx-1" value="Service" style="whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aK8N_R9uy3vBh9vHCZZx-2" value="&lt;div align=&quot;left&quot;&gt;- Rate Limited / Throttling&lt;br&gt;- Service discovery&lt;br&gt;- Load Balancing&lt;br&gt;- Service Metrics&lt;br&gt;- Logging&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="aK8N_R9uy3vBh9vHCZZx-2" value="&lt;div align=&quot;left&quot;&gt;- Rate Limited / Throttling&lt;br&gt;- Service discovery&lt;br&gt;- Load Balancing&lt;br&gt;- Service Metrics&lt;br&gt;- Logging&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="340" y="275" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aK8N_R9uy3vBh9vHCZZx-3" value="API Gateway" style="whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="aK8N_R9uy3vBh9vHCZZx-3" value="API Gateway" style="whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="170" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aK8N_R9uy3vBh9vHCZZx-4" value="&lt;div align=&quot;left&quot;&gt;- Auth&lt;br&gt;- Routing&lt;br&gt;- A/B testing&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME logging&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME Rate Limiting / Throttling&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME metrics&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- MAYBE caching&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Circuit Breaker&lt;br&gt;- Firewall&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="170" y="265" width="180" height="130" as="geometry" />
+        <mxCell id="aK8N_R9uy3vBh9vHCZZx-4" value="&lt;div align=&quot;left&quot;&gt;- Auth&lt;br&gt;- Routing&lt;br&gt;- A/B testing&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME logging&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME Rate Limiting / Throttling&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- SOME metrics&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- MAYBE caching&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Circuit Breaker&lt;br&gt;- Firewall (block/allow lists)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Request de-duplication&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Input validation&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- TLS Termination&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="150" y="275" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="aK8N_R9uy3vBh9vHCZZx-5" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;KEY&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="aK8N_R9uy3vBh9vHCZZx-5" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;KEY&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="215" y="70" width="170" height="100" as="geometry" />
         </mxCell>
       </root>
